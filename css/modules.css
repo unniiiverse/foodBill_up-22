@@ -1,5 +1,3 @@
-html { scroll-padding-top: 45px; }
-
 .wrapper { max-width: 1170px; min-width: calc(320px - calc(24px * 2)); padding: 0 24px; margin: 0 auto; height: auto; }
 
 .uv-burger-btn { z-index: 999; display: none; width: 30px; height: 18px; cursor: pointer; position: relative; }
@@ -24,7 +22,7 @@ html { scroll-padding-top: 45px; }
 
 .uv-burger-menu-wrapper { max-width: 320px; min-height: 100%; margin: 0 auto; padding: 16px; display: flex; flex-direction: column; }
 
-.uv-burger-menu .uv-burger-btn { position: absolute; top: 24px; right: 24px; }
+.uv-burger-menu .uv-burger-btn { position: absolute; top: 13px; right: 24px; }
 
 .uv-burger-body-locked { overflow: hidden; }
 
