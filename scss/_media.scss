@@ -1,0 +1,29 @@
+@media screen and (max-width: 1260px) {
+    .header {
+        &-body {
+            &-sushi {
+                opacity: .4;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .s-1 {
+        .uv-card {
+            &:nth-child(2) {
+                border-right: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .s-1 {
+        .uv-card {
+            &:nth-child(2) {
+                border: none;
+            }
+        }
+    }
+}
