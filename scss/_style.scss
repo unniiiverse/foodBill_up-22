@@ -134,6 +134,46 @@
             }
         }
     }
+
+    &-input {
+        position: relative;
+
+        input {
+            width: 100%;
+            height: 60px;
+            border-radius: 14px;
+            padding-left: 18px;
+        }
+
+        input,
+        input::placeholder {
+            font-family: 'productsans', sans-serif;
+            font-size: 14px;
+            color: #CCCCCC;
+        }
+
+        button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            padding: 14px 22px;
+            background-color: $c-orange;
+            border-radius: 14px;
+            transition: .2s ease-in-out all;
+
+            .text {
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                background-color: $c-orangeLight;
+                
+                span {
+                    color: $c-orange;
+                }
+            }
+        }
+    }
 }
 
 .anchor {
@@ -556,46 +596,6 @@ section:not(.s-1) {
             .text-light {
                 margin-bottom: 34px;
             }
-
-            &-input {
-                position: relative;
-
-                input {
-                    width: 100%;
-                    height: 60px;
-                    border-radius: 14px;
-                    padding-left: 18px;
-                }
-
-                input,
-                input::placeholder {
-                    font-family: 'productsans', sans-serif;
-                    font-size: 14px;
-                    color: #CCCCCC;
-                }
-
-                button {
-                    position: absolute;
-                    top: 5px;
-                    right: 5px;
-                    padding: 14px 22px;
-                    background-color: $c-orange;
-                    border-radius: 14px;
-                    transition: .2s ease-in-out all;
-
-                    .text {
-                        text-transform: uppercase;
-                    }
-
-                    &:hover {
-                        background-color: $c-orangeLight;
-                        
-                        span {
-                            color: $c-orange;
-                        }
-                    }
-                }
-            }
         }
     }
 }
@@ -603,7 +603,91 @@ section:not(.s-1) {
 // === footer
 
 .footer {
+    background-color: #F5F5F5;
+    padding: 100px 0 32px;
 
+    &-t {
+        .uv-card {
+            text-align: left;
+
+            .logo-foodBill {
+                margin-bottom: 36px;
+            }
+
+            .text-title {
+                margin-bottom: 36px;
+                font-size: 22px;
+            }
+
+            &-container {
+                justify-content: center;
+            }
+
+            &-nav {
+                display: flex;
+                flex-direction: column;
+                
+                .nav_item {
+                    font-size: 16px;
+                    padding: 8px 0;
+                    color: $c-gs8;
+
+                    &:hover {
+                        color: $c-orange;
+                    }
+                }
+            }
+
+            &:nth-child(1) {
+                .text-light {
+                    margin-bottom: 32px;
+                }
+
+                .r-socials {
+                    max-width: none;
+                    
+                    a {
+                        margin: 0 12px;
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+                .text-light {
+                    padding: 4px;
+                }
+            }
+
+            &:nth-child(4) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .text-light {
+                    padding: 4px;
+
+                    &:nth-child(4) {
+                        margin-bottom: 20px;
+                    }
+                }
+                .r-input {
+                    width: 270px;
+                }
+            }
+        }
+    }
+
+    &-b {
+        text-align: center;
+
+        #footer-line {
+            width: 100%;
+            height: 2px;
+            display: block;
+            background-color: #DDDDDD;
+            margin-bottom: 24px;
+        }
+    }
 }
 
 // === burger 
