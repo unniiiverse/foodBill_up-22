@@ -1,6 +1,6 @@
 # FoodBill
 
-![FoodBill preview](https://unniv.info/projects/foodBill/preview/preview.png)
+
 Тип: Landing Page <br>
 Сроки: 3(2) дня.  <br> <br>
 
