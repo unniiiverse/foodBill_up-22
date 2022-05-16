@@ -1,4 +1,4 @@
-# Food Bill
+# FoodBill
 
 ![FoodBill preview](https://unniv.info/projects/foodBill/preview/preview.png)
 Тип: Landing Page <br>
