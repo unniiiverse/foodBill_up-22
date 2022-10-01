@@ -1,8 +1,9 @@
 # FoodBill
 
+![preview](https://unniiiverse.github.io/cdn/image/projectPreview/foodbill.png)
+[Посетить](https://unniiiverse.github.io/project/2022/foodBill/)
 Тип: Landing Page <br>
-Сроки: 3(2) дня.  <br> <br>
+Сроки: 3 дня.  <br> <br>
 
-*p.s 1 день ушёл на починку & доработку модуйлей и новых скриптов.*
 
 unniiiverse © 2022
